@@ -27,7 +27,7 @@ else:
             return count
             
         
-        def getTrial (lowerLimit, upperLimit): #Finds the number between the lower limit and upper limit
+        def getTrial (lowerLimit, upperLimit): #Finds the trial number between the lower limit and upper limit
             number_to_try = lowerLimit + ((upperLimit - lowerLimit) / 2)
             return number_to_try 
         
